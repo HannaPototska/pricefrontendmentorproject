@@ -50,15 +50,48 @@ body {
 
 .subscription {
     background-color: hsl(179, 62%, 43%);
-    padding: 30px;
+    padding:  20px 30px;
     width: 100%;
     height: 30%;
+    display: grid;
+}
+.dollar {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.month {
+    color: hsla(203, 44%, 93%, 0.678);
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.subscription button {
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0;
+    background-color: hsl(71, 73%, 54%);
+    box-shadow: 0 1px 5px hsl(179, 63%, 31%);
+    margin-top: 10px;
+    text-shadow: 0 1px 8px white;
 }
 .whyUs {
     background-color: hsl(179.48,47.15%,51.76%);
-    padding: 30px;
+    padding: 20px 30px;
     width: 100%;
-    height: 40%;
+    height: 38%;
+}
+.whyUs h3 {
+    margin-bottom: 20px;
+}
+.whyUs li {
+    line-height: 20px;
+    color: hsla(203, 44%, 93%, 0.842);
 }
 
 @media screen and (min-width: 992px) {

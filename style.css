@@ -5,6 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    list-style: none;
 }
 
 body {
@@ -52,16 +53,13 @@ body {
     .community {
         width: 100%;
         height: 100%;
-        background-color: white;
     }
     
     .subscription {
-        background-color: hsl(179, 62%, 43%);
         width: 100%;
         height: 110%;
     }
     .whyUs {
-        background-color: hsl(179.48,47.15%,51.76%);
         width: 100%;
         height: 110%;
     }
